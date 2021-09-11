@@ -10,3 +10,14 @@ button{
     font-family: roboto;
     
 }
+img{
+    height: 800px;
+    width: 1700px;
+    
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    
+}
