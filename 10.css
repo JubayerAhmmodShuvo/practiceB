@@ -21,3 +21,9 @@ table,th,td{
     padding: 15px;
     
 }
+#new{
+    background-color: rgb(228, 28, 28);
+font: 25px;
+font-size: 25px;
+color: aliceblue;
+}
