@@ -1,6 +1,6 @@
 p{
     color: brown;
-    font-size: 25px;
+    font-size: 5vw;
     background-color:aqua;
     
 }
@@ -11,8 +11,8 @@ button{
     
 }
 img{
-    height: 800px;
-    width: 1700px;
+    height: 50vw;
+    width: 100vw;
     
 }
 table,th,td{
@@ -23,7 +23,7 @@ table,th,td{
 }
 #new{
     background-color: rgb(228, 28, 28);
-font: 25px;
-font-size: 25px;
+
+font-size: 5vw;
 color: aliceblue;
 }
