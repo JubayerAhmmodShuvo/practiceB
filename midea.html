@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1 id="empty"></h1>
+<button type="button" onclick="myPosition">Show location</button>
+
+<script>
+    var h= document.getElementById("empty");
+    function myPosition() {
+        if(navigator.geolocation){
+            navigator.geolocation.getCurrentPosition(showLocation);
+        }
+        }
+        function showLocation(position){
+            h.innerHTML="long :"+position.coords.longitude;
+            }
+</script><br>
+
+   <!-- <video height="750" width="1080" controls>
+       <source src="/video" type="video/mp4">dfd
+       video
+       
+       
+          </video>
+          <audio controls>
+<source src="dg" type="">df
+
+          </audio>-->
+</body>
+</html>
