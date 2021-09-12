@@ -36,3 +36,14 @@ form{
 input{
     padding: 10px;
 }
+
+.input{
+    background-color: aqua;
+    color: black;
+    padding: 5px 5px ;
+    border-radius: 20px;
+    
+    margin: auto;
+    margin-top: 55px;
+    margin-left: 365px;
+    }
