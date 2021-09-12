@@ -5,7 +5,7 @@ p{
     
 }
 button{
-    color: aquamarine;
+    color: rgb(37, 37, 37);
     background-color: black;
     font-family: roboto;
     
@@ -29,6 +29,9 @@ color: aliceblue;
 }
 #lol{
     text-align: center;
+    font-family: roboto;
+    font-weight: bold;
+    color: rgb(147, 33, 182);
 }
 form{
     text-align: center;
@@ -42,12 +45,12 @@ input{
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 position: relative;
 z-index: 1;
-background: #FFFFFF;
-opacity: 99%;
-max-width: 200px;
+background: #f3f3ef;
+opacity: 100%;
+max-width: 300px;
 margin:auto;
 border-radius: 5%;
-color: black;
+color: rgb(147, 33, 182);
 margin-top: 40px;
 padding: 10px 45px 30px 45px ;
 
