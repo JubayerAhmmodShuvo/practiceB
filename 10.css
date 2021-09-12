@@ -37,13 +37,55 @@ input{
     padding: 10px;
 }
 
-.input{
-    background-color: aqua;
-    color: black;
-    padding: 5px 5px ;
-    border-radius: 20px;
+.form{
     
-    margin: auto;
-    margin-top: 55px;
-    margin-left: 365px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+position: relative;
+z-index: 1;
+background: #FFFFFF;
+opacity: 99%;
+max-width: 200px;
+margin:auto;
+border-radius: 5%;
+color: black;
+margin-top: 40px;
+padding: 10px 45px 30px 45px ;
+
+
+
+}
+
+.input{
+    /* background-color: rgb(134, 199, 199); */
+    text-transform: uppercase;
+    /* border: 0; */
+    /* color: rgb(187, 19, 19); */
+    /* padding: 5px 5px ; */
+    /* border-radius: 10px; */
+    cursor: pointer;
+    /* margin-top: 10px; */
+    outline: 0;
+   
+   
+   
     }
+
+    .form input{
+    outline: 1;
+        border-radius: 10px;
+        width: 90%;
+        border: 0;
+        margin: 0px 0px 15px;
+        padding: 15px;
+        box-sizing: border-box;
+        outline: 0;
+        background: rgb(30, 158, 218);
+
+
+}
+.form input:hover{
+    background-color:#D3F8F9;
+    color: black;
+    transition: all is ease 0s;
+
+}
