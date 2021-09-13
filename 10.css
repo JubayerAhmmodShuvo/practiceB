@@ -73,6 +73,29 @@ padding: 10px 45px 30px 45px ;
    
     }
 
+    .newlink{
+        background-color: rgb(233, 182, 43);
+        color: black;
+        border: 0;
+        border-radius: 5px;
+        margin: auto;
+        width: 250px;
+        height: 40px;
+        box-sizing: border-box;
+        z-index: 1;
+        
+    }
+    .newlink:hover{
+        cursor: pointer;
+        color: rgb(241, 240, 241);
+
+  background-color: rgb(61, 50, 214);
+  transition: 0s;
+  text-transform: uppercase;
+
+    }
+
+
     .form input{
     outline: 1;
         border-radius: 10px;
