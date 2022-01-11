@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photo ALbum</title>
     <style>
-        .photo-album{
+        /* .photo-album{
             display: flex;
             flex-wrap: wrap;
         }
@@ -43,6 +43,48 @@
         .photo-frame:hover .photo-detail{
             display: block;
             background-color: rgba(238, 214, 214, 0.747);
+        }
+        .photo-frame:hover .photo{
+            transform: scale(1.5) rotate(360deg);
+            transition: transform 2s ease-in-out;
+        } */
+        .photo-album{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .photo-frame{
+            width: 300px;
+            height:170px;
+            border: 2px solid goldenrod;
+            border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+        }
+        .photo img{
+            width: 100%;
+            border-radius: 10px;
+        }
+        .photo-detail{
+            position: absolute;
+            width: 300px;
+            top: 0;
+            display: none;
+       
+        }
+        .photo-detail h3{
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            background-color: black;
+        }
+        .photo-detail p{
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-size: 15px;
+        }
+        .photo-frame:hover .photo-detail{
+            display: block;
+            background-color: rgba(252, 252, 252, 0.747);
         }
         .photo-frame:hover .photo{
             transform: scale(1.5) rotate(360deg);
